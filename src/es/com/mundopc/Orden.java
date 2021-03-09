@@ -7,7 +7,7 @@ package es.com.mundopc;
 import es.com.mundopc.Ordenador;
 
 public class Orden {
-    private int idOrden;
+    private final int idOrden;
     private Ordenador ordenadores[];
     private static int contadorOrdenes;
     private int contadorOrdenadores;

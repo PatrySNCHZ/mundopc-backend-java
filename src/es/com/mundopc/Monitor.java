@@ -7,7 +7,7 @@ package es.com.mundopc;
 
 public class Monitor {
 
-    private int idMonitor;
+    private final int idMonitor;
     private String marca;
     private double pulgadas;
     private static int contadorMonitor;

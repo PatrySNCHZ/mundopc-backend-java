@@ -3,14 +3,7 @@ package es.com.mundopc;
 
 public class Ordenador {
 
-    public static int getContadorOrdenador() {
-        return contadorOrdenador;
-    }
-
-    public static void setContadorOrdenador(int aContadorOrdenador) {
-        contadorOrdenador = aContadorOrdenador;
-    }
-    private int idOrdenador;
+    private final int idOrdenador;
     private String nombre;
     private Monitor monitor;
     private Teclado teclado;
@@ -32,10 +25,6 @@ public class Ordenador {
 
     public int getIdOrdenador() {
         return idOrdenador;
-    }
-
-    public void setIdOrdenador(int idOrdenador) {
-        this.idOrdenador = idOrdenador;
     }
 
     public String getNombre() {

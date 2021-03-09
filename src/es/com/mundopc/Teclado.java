@@ -2,7 +2,7 @@
 package es.com.mundopc;
 
 public class Teclado extends DispositivoEntrada{
-        private int idTeclado;
+    private final int idTeclado;
     private static int contadorTeclado;
 
     public Teclado(String tipoEntrada, String marca) {
